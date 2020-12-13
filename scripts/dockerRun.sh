@@ -5,7 +5,7 @@
 # Step 1:
 # Build image and add a descriptive tag.  Need to be in the parent
 # if this runs from the a scripts directory.
-docker build --tag=mywebapp ..
+docker build --tag=mywebapp:latest ..
 
 # Step 2:
 # List docker images

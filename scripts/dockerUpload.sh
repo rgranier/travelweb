@@ -5,7 +5,8 @@
 # Step 1:
 # Create dockerpath
 # dockerpath=<your docker ID/path>
-dockerpath='rgranier/webapprepo:v1.3'
+#dockerpath='rgranier/webapprepo:v1.3'
+dockerpath='rgranier/webapprepo:latest'
 
 # Step 2:
 # Authenticate & tag
