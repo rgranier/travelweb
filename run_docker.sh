@@ -4,7 +4,7 @@
 
 # Step 1:
 # Build image and add a descriptive tag
-docker build --tag=microserviceapp .
+docker build --tag=mywebapp .
 
 # Step 2:
 # List docker images
@@ -12,4 +12,4 @@ docker image ls
 
 # Step 3:
 # Run flask app
-docker container run --name flaskms -p 8000:80 microserviceapp
+docker container run -d --name mywebappcontainer -p 8080:80 mywebapp
